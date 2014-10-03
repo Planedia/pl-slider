@@ -1,0 +1,24 @@
+{
+  "name": "pl-slider",
+  "version": "0.0.1",
+  "authors": [
+    "Giovanni Keppelen <giovanni@planedia.com>"
+  ],
+  "description": "Slider range planedia.com",
+  "main": "slider.js",
+  "keywords": [
+    "slider",
+    "angularjs",
+    "range",
+    "range",
+    "money"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
