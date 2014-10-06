@@ -1,7 +1,7 @@
 pl-slider
 =========
 
-#JavaScript
+##JavaScript
 ```js
 'use strict';
 
@@ -26,7 +26,7 @@ PlanediaApp.controller('slider', function( $scope ) {
 });
 ```
 
-#HTML
+##HTML
 
 ```html
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -44,54 +44,53 @@ div
 </div>
 ```
 
-#CSS
+##CSS
 ```css
 .ui-slider .ui-slider-handle {
-		position: absolute;
-    z-index: 2;
-    width: 1.2em;
-    height: 1.2em;
-    cursor: default;
-    -ms-touch-action: none;
-    touch-action: none;
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
 }
 .ui-slider-horizontal .ui-slider-handle {
-    top: -.3em;
-    margin-left: -.6em;
+	top: -.3em;
+	margin-left: -.6em;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-        border: 1px solid #FFF;
-        background: #289daf;
-        width: 10px;
-        height: 20px;
-        font-weight: bold;
-        border-radius: 5px;
-        color: #1c94c4;
-    }
-    .ui-slider .ui-slider-range {
-        position: absolute;
-        z-index: 1;
-        font-size: .7em;
-        display: block;
-        border: 0;
-        background-position: 0 0;
-        background-color: #289daf;
-    }
-    .ui-slider-horizontal .ui-slider-range {
-        top: 0;
-        height: 100%;
-    }
-    .ui-widget-content {
-        background: #2c3e50;
-    }
-    .ui-slider-horizontal {
-        height: 10px;
-        border-radius: 10px;
-    }
-    .ui-slider {
-        position: relative;
-        text-align: left;
-        margin-top: 15px;
-    }
+	border: 1px solid #FFF;
+	background: #289daf;
+	width: 10px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: #1c94c4;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+	background-color: #289daf;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-widget-content {
+	background: #2c3e50;
+}
+.ui-slider-horizontal {
+	height: 10px;
+	border-radius: 10px;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+	margin-top: 15px;
 }
 ```
